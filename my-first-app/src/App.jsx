@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import { Component } from 'react'
+import { Component, StrictMode } from 'react'
 import './App.css'
 
 const Header = () => {
@@ -44,7 +44,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      <StrictMode>
+        <Header />
+      </StrictMode>
       <Field2 />
       <Btn />
     </>
