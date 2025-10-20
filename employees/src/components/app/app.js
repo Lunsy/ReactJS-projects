@@ -1,4 +1,5 @@
 import AppInfo from '../app-info/app-info';
+import SearchPanel from '../search-panel/search-panel';
 
 import './app.css';
 
@@ -7,11 +8,9 @@ function App() {
         <div className="app">
             <AppInfo />
             <div className="search-panel">
-                {/* SearchPanel component will go here */}
+                <SearchPanel />
             </div>
-            <div className="app-list">
-                {/* AppList component will go here */}
-            </div>
+
         </div>
     );
 }
