@@ -15,3 +15,18 @@
     width: 350px;
     margin-right: 20px;
 }
+
+.error-container {
+    height: 22px;
+    /* зарезервированное место под сообщение */
+    margin-top: 5px;
+    text-align: center;
+}
+
+.alert {
+    color: #ffc107;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+}
